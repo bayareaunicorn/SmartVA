@@ -1,2 +1,8 @@
 # SmartVA
-Ai Todo list, React Native Web llm 
+
+# UNDER CONSTRUCTION 
+
+## Smart Virtual Assistant 
+
+A project in React-Strict-Mode..
+
