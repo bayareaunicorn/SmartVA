@@ -1,0 +1,24 @@
+{
+  "name": "smartva",
+  "version": "1.0.0",
+  "description": "Ai Todo list, React Native Web llm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ladifire-opensource/stylex-webpack-plugin": "^0.1.0-beta.0",
+    "@stylexjs/babel-plugin": "^0.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-strict-dom": "^0.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  }
+}
