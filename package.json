@@ -2,24 +2,31 @@
   "name": "smartva",
   "version": "1.0.0",
   "description": "Ai Todo list, React Native Web llm",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open --config webpack.config.js",
-  "build": "webpack --config webpack.config.js"
+    "dev": "expo start --clear",
+    "dev:android": "expo start --android --clear",
+    "dev:ios": "expo start --ios --clear",
+    "dev:web": "expo start --web --clear"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@expo/metro-runtime": "^3.1.3",
     "@ladifire-opensource/stylex-webpack-plugin": "^0.1.0-beta.0",
     "@stylexjs/babel-plugin": "^0.5.1",
+    "expo": "^50.0.11",
+    "expo-build-properties": "^0.11.1",
+    "expo-status-bar": "^1.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-native": "^0.73.6",
+    "react-native-web": "^0.19.10",
     "react-strict-dom": "^0.0.3"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
     "@stylexjs/webpack-plugin": "^0.5.1",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",

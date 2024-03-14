@@ -18,3 +18,6 @@ function App() {
         </html.main>
     )
 }
+
+
+export default App;

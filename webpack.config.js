@@ -1,3 +1,10 @@
+const createExpoWebpackConfigAsync = require('@expo/webpack-config');
+module.exports = async function (env, argv) {
+  const config = await createExpoWebpackConfigAsync(env, argv);
+  
+  };
+
+
 const StylexPlugin = require('@stylexjs/webpack-plugin');
 const path = require('path');
 
